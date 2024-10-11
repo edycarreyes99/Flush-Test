@@ -13,6 +13,7 @@ import { SearchComponent } from './components/search/search.component';
 import { PaginationComponent } from './components/pagination/pagination.component';
 import { BoxItemComponent } from './components/box-item/box-item.component';
 import { RecentDropsListComponent } from './components/recents-drops-list/recent-drops-list.component';
+import { DropItemComponent } from './components/drop-item/drop-item.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { RecentDropsListComponent } from './components/recents-drops-list/recent
     SearchComponent,
     PaginationComponent,
     BoxItemComponent,
-    RecentDropsListComponent
+    RecentDropsListComponent,
+    DropItemComponent
   ],
   imports: [
     BrowserModule,
