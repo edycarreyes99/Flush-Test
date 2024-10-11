@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { ReferFriendsComponent } from './components/refer-friends/refer-friends.component';
 import {NgOptimizedImage} from "@angular/common";
+import { BenefitsCardComponent } from './components/benefits-card/benefits-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ReferFriendsComponent
+    ReferFriendsComponent,
+    BenefitsCardComponent
   ],
   imports: [
     BrowserModule,
