@@ -11,6 +11,7 @@ import { BoxesListComponent } from './components/boxes-list/boxes-list.component
 import { BoxCategoriesFilterComponent } from './components/box-categories-filter/box-categories-filter.component';
 import { SearchComponent } from './components/search/search.component';
 import { PaginationComponent } from './components/pagination/pagination.component';
+import { BoxItemComponent } from './components/box-item/box-item.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PaginationComponent } from './components/pagination/pagination.componen
     BoxesListComponent,
     BoxCategoriesFilterComponent,
     SearchComponent,
-    PaginationComponent
+    PaginationComponent,
+    BoxItemComponent
   ],
   imports: [
     BrowserModule,
