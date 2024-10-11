@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.bg-flush-gradient {
+  background: linear-gradient(358.1deg, rgba(95, 159, 255, 0.2244) 1.9%, rgba(43, 43, 43, 0.2924) 98.69%);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(16.5px);
+  border-radius: 13px;
+}

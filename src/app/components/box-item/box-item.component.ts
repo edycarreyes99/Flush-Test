@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
+import {BoxItem} from "./interfaces/box-item.interface";
 
 @Component({
   selector: 'app-box-item',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './box-item.component.scss'
 })
 export class BoxItemComponent {
+  // Input Variables
+  @Input() box: BoxItem | undefined;
 
 }

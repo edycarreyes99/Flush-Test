@@ -1,3 +1,22 @@
-<div class="box-item-component">
-  <p>box-item works!</p>
+<div class="box-item-component p-2 flex flex-col justify-between w-[216px] h-[330px]">
+  <div class="flex">
+    <div class="price text-white font-bold p-2 bg-black-transparent rounded-lg">
+      {{ box?.price! | currency }}
+    </div>
+
+    <div class="is-new bg-flush-yellow ml-auto text-sm rounded-lg p-2 font-bold">
+      New
+    </div>
+  </div>
+  <img [src]="box?.image!" alt="Box Image" class="h-40 my-5">
+
+  <div class="content p-2">
+    <div class="font-bold text-white">
+      {{ box?.title! }}
+    </div>
+
+    <div class="text-flush-gray">
+      {{ box?.description! }}
+    </div>
+  </div>
 </div>

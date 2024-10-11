@@ -8,4 +8,10 @@
     <app-search class="ml-0 md:ml-auto"></app-search>
     <app-pagination class="ms-0 md:ms-4"></app-pagination>
   </div>
+
+  <div class="flex">
+    <app-box-item *ngFor="let box of boxes" [box]="box" class="mt-5">
+
+    </app-box-item>
+  </div>
 </div>
