@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RecentsDropsListComponent } from './recents-drops-list.component';
+import { RecentDropsListComponent } from './recent-drops-list.component';
 
 describe('RecentsDropsListComponent', () => {
-  let component: RecentsDropsListComponent;
-  let fixture: ComponentFixture<RecentsDropsListComponent>;
+  let component: RecentDropsListComponent;
+  let fixture: ComponentFixture<RecentDropsListComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [RecentsDropsListComponent]
+      declarations: [RecentDropsListComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(RecentsDropsListComponent);
+    fixture = TestBed.createComponent(RecentDropsListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

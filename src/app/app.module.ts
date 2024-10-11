@@ -12,7 +12,7 @@ import { BoxCategoriesFilterComponent } from './components/box-categories-filter
 import { SearchComponent } from './components/search/search.component';
 import { PaginationComponent } from './components/pagination/pagination.component';
 import { BoxItemComponent } from './components/box-item/box-item.component';
-import { RecentsDropsListComponent } from './components/recents-drops-list/recents-drops-list.component';
+import { RecentDropsListComponent } from './components/recents-drops-list/recent-drops-list.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +25,7 @@ import { RecentsDropsListComponent } from './components/recents-drops-list/recen
     SearchComponent,
     PaginationComponent,
     BoxItemComponent,
-    RecentsDropsListComponent
+    RecentDropsListComponent
   ],
   imports: [
     BrowserModule,
