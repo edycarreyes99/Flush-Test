@@ -7,13 +7,15 @@ import { HomeComponent } from './components/home/home.component';
 import { ReferFriendsComponent } from './components/refer-friends/refer-friends.component';
 import {NgOptimizedImage} from "@angular/common";
 import { BenefitsCardComponent } from './components/benefits-card/benefits-card.component';
+import { BoxesComponent } from './components/boxes/boxes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ReferFriendsComponent,
-    BenefitsCardComponent
+    BenefitsCardComponent,
+    BoxesComponent
   ],
   imports: [
     BrowserModule,
