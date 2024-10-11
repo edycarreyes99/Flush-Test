@@ -7,7 +7,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ReferFriendsComponent } from './components/refer-friends/refer-friends.component';
 import {NgOptimizedImage} from "@angular/common";
 import { BenefitsCardComponent } from './components/benefits-card/benefits-card.component';
-import { BoxesComponent } from './components/boxes/boxes.component';
+import { BoxesListComponent } from './components/boxes-list/boxes-list.component';
 import { BoxCategoriesFilterComponent } from './components/box-categories-filter/box-categories-filter.component';
 import { SearchComponent } from './components/search/search.component';
 import { PaginationComponent } from './components/pagination/pagination.component';
@@ -18,7 +18,7 @@ import { PaginationComponent } from './components/pagination/pagination.componen
     HomeComponent,
     ReferFriendsComponent,
     BenefitsCardComponent,
-    BoxesComponent,
+    BoxesListComponent,
     BoxCategoriesFilterComponent,
     SearchComponent,
     PaginationComponent
