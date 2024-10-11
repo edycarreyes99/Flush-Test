@@ -12,4 +12,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Screenshots
-![Screenshot-1](./src/assets/Screenshots/screenshot-1.png)
+![Screenshot-1](https://github.com/edycarreyes99/Flush-Test/blob/develop/src/assets/Screenshots/Screenshot-1.png?raw=true)
