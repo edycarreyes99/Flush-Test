@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
+import {BenefitCard} from "./interfaces/benefit-card.interface";
 
 @Component({
   selector: 'app-benefits-card',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './benefits-card.component.scss'
 })
 export class BenefitsCardComponent {
+  // Input Variables
+  @Input() benefitCard: BenefitCard | undefined;
 
 }
