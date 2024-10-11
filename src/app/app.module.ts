@@ -10,6 +10,7 @@ import { BenefitsCardComponent } from './components/benefits-card/benefits-card.
 import { BoxesComponent } from './components/boxes/boxes.component';
 import { BoxCategoriesFilterComponent } from './components/box-categories-filter/box-categories-filter.component';
 import { SearchComponent } from './components/search/search.component';
+import { PaginationComponent } from './components/pagination/pagination.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SearchComponent } from './components/search/search.component';
     BenefitsCardComponent,
     BoxesComponent,
     BoxCategoriesFilterComponent,
-    SearchComponent
+    SearchComponent,
+    PaginationComponent
   ],
   imports: [
     BrowserModule,
