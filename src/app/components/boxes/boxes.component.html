@@ -1,10 +1,11 @@
 <div class="boxes-component">
-  <div class="text-white font-black">
+  <div class="text-white font-black mt-8">
     All Boxes
   </div>
 
-  <div class="flex flex-row items-center">
-    <app-box-categories-filter></app-box-categories-filter>
-    <app-search></app-search>
+  <div class="flex flex-col md:flex-row items-start md:items-center">
+    <app-box-categories-filter class=""></app-box-categories-filter>
+    <app-search class="ml-0 md:ml-auto"></app-search>
+    <app-pagination class="ms-0 md:ms-4"></app-pagination>
   </div>
 </div>
