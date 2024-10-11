@@ -1,3 +1,10 @@
 <div class="box-categories-filter-component">
-  <p>box-categories-filter works!</p>
+  <div class="flex flex-row">
+    <button
+      class="text-white mr-2 hover:bg-flush-button-hover px-6 py-2 rounded"
+      [class.bg-flush-button-active]="i === 0"
+      *ngFor="let boxCategory of boxCategories; let i = index">
+      {{ boxCategory.title }}
+    </button>
+  </div>
 </div>

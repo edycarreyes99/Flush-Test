@@ -11,6 +11,8 @@ module.exports = {
       backgroundColor:{
         'flush-link': 'rgba(255, 255, 255, 0.1)',
         'flush-background': '#101315',
+        'flush-button-hover': 'rgba(255, 255, 255, 0.1)',
+        'flush-button-active': 'rgba(255, 255, 255, 0.2)',
       },
       borderColor: {
         'flush-gray': 'rgba(255, 255, 255, 0.5)',
