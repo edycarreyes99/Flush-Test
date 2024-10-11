@@ -9,9 +9,8 @@
     <app-pagination class="ms-0 md:ms-4"></app-pagination>
   </div>
 
-  <div class="flex">
-    <app-box-item *ngFor="let box of boxes" [box]="box" class="mt-5">
-
+  <div class="flex overflow-auto overflow-hidden">
+    <app-box-item *ngFor="let box of boxes" [box]="box" class="mt-5 mr-5">
     </app-box-item>
   </div>
 </div>

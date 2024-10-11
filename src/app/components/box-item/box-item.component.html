@@ -4,7 +4,7 @@
       {{ box?.price! | currency }}
     </div>
 
-    <div class="is-new bg-flush-yellow ml-auto text-sm rounded-lg p-2 font-bold">
+    <div class="is-new bg-flush-yellow ml-auto text-sm rounded-lg p-2 font-bold" *ngIf="box?.isNew">
       New
     </div>
   </div>
