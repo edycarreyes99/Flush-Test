@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/flush-test",
+    "public": "dist/flush-test/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
