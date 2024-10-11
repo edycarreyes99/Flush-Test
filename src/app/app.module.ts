@@ -8,6 +8,7 @@ import { ReferFriendsComponent } from './components/refer-friends/refer-friends.
 import {NgOptimizedImage} from "@angular/common";
 import { BenefitsCardComponent } from './components/benefits-card/benefits-card.component';
 import { BoxesComponent } from './components/boxes/boxes.component';
+import { BoxCategoriesFilterComponent } from './components/box-categories-filter/box-categories-filter.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { BoxesComponent } from './components/boxes/boxes.component';
     HomeComponent,
     ReferFriendsComponent,
     BenefitsCardComponent,
-    BoxesComponent
+    BoxesComponent,
+    BoxCategoriesFilterComponent
   ],
   imports: [
     BrowserModule,
