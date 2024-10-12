@@ -2,4 +2,9 @@
   <div class="text-white font-black mt-8">
     Recent Drops
   </div>
+
+  <div class="flex overflow-auto">
+    <app-drop-item *ngFor="let dropItem of dropItems" [dropItem]="dropItem" class="mt-5 mr-5">
+    </app-drop-item>
+  </div>
 </div>

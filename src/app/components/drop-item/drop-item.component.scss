@@ -1,3 +1,8 @@
 .drop-item-component {
-
+  .drop-item-gradient {
+    background: linear-gradient(5.45deg, rgba(45, 54, 67, 0.5412) 3.56%, rgba(32, 32, 32, 0.82) 96.62%);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(16.5px);
+    border-radius: 13px;
+  }
 }
