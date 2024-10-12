@@ -11,5 +11,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## Website URLs
+* [Flush Test](https://flush-test.web.app/)
+
 ## Screenshots
-![Screenshot-1](https://github.com/edycarreyes99/Flush-Test/blob/develop/src/assets/Screenshots/Screenshot-1.png?raw=true)
+* Laptop with HIDPI Screen
+![Laptop-HIDPI-Screen](https://github.com/edycarreyes99/Flush-Test/blob/develop/src/assets/screenshots/screenshot-(Laptop%20HiDPI).png?raw=true)
+* iPhone 12 Pro Screen
+  ![Laptop-HIDPI-Screen](https://github.com/edycarreyes99/Flush-Test/blob/develop/src/assets/screenshots/screenshot-(iPhone%2012%20Pro).png?raw=true)
