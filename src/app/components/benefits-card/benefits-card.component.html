@@ -1,19 +1,19 @@
 <div
   class="benefits-card-component">
-  <div class="bg-flush-gradient rounded-lg text-white w-full p-2">
+  <div class="bg-flush-gradient rounded-lg text-white w-full p-2 flex flex-row-reverse md:flex-col">
     <img [src]="benefitCard?.image!"
          alt="Gift Box"
-         class="w-32 h-32 mb-4 relative mx-auto -mt-10"
+         class="w-32 h-32 mb-4 relative mx-auto -mt-7 md:-mt-10"
     >
     <div class="text">
-      <div class="text-center">
-        <h2 class="text-4xl font-bold mb-2 text-center">
+      <div class="text-start md:text-center">
+        <h2 class="text-4xl font-bold mb-2">
           {{ benefitCard?.title! }}
         </h2>
         <h3 class="text-xl font-semibold mb-4">
           {{ benefitCard?.subtitle! }}
         </h3>
-        <p class="text-center text-flush-gray text-sm">
+        <p class="text-flush-gray text-sm">
           {{ benefitCard?.description! }}
         </p>
       </div>
