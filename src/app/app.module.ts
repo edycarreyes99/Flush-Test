@@ -14,6 +14,7 @@ import { PaginationComponent } from './components/pagination/pagination.componen
 import { BoxItemComponent } from './components/box-item/box-item.component';
 import { RecentDropsListComponent } from './components/recents-drops-list/recent-drops-list.component';
 import { DropItemComponent } from './components/drop-item/drop-item.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { DropItemComponent } from './components/drop-item/drop-item.component';
     PaginationComponent,
     BoxItemComponent,
     RecentDropsListComponent,
-    DropItemComponent
+    DropItemComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
