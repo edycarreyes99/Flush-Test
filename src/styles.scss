@@ -11,3 +11,27 @@
 .rounded-circle {
   border-radius: 100%;
 }
+
+body::-webkit-scrollbar {
+  width: 11px;
+}
+
+html {
+  --scrollbarBG: rgba(255, 255, 255, 0.04);
+  --thumbBG: #5F9FFF39;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
